@@ -1,0 +1,10 @@
+
+	.bg-primary { background-color: green !important; }
+	.navbar-dark .navbar-nav .nav-link { color: green; }
+	.navbar-dark .navbar-toggler { border-color: green; }
+	.navbar-dark .navbar-toggler-icon { background-image: url('data:image/svg+xml;charset=utf-8,<svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><path stroke="white" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/></svg>') !important; }
+	.btn-primary { background-color: green; border-color: green; }
+	.btn-primary:hover { background-color: green; color: green; }
+	.bg-secondary { background-color:orange !important; }
+	.text-white { color: white!important; }
+

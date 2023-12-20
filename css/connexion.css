@@ -1,0 +1,20 @@
+
+    /* Style pour la page de connexion */
+    .form-control {
+        border-color: green;
+    }
+    .btn-primary {
+        background-color: green;
+        border-color: green;
+    }
+
+  
+    
+    .container {
+        border: 1px solid black;
+        padding: 20px;
+        margin: 0 auto;
+        max-width: 400px;
+      }
+      
+    

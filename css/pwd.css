@@ -1,0 +1,47 @@
+/* Style général pour le formulaire */
+form {
+    width: 50%;
+    margin: auto;
+}
+
+/* Style pour chaque "tab" (étape) */
+.tab {
+    display: none;
+}
+
+/* Style pour les champs de saisie */
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Style pour les boutons de navigation */
+#prevBtn, #nextBtn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Style pour les indicateurs d'étape */
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+/* Style pour les indicateurs d'étape actifs */
+.step.active {
+    opacity: 1;
+    background-color: #4CAF50;
+}
